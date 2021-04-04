@@ -3,16 +3,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dafd330d-8703-4f6d-a426-d9a0682089eb/deploy-status)](https://app.netlify.com/sites/peaceful-hoover-3dc7e0/deploys)
 
-## Client
-
-Dear User,
-
-May we welcome you to our humble website with a great mission in our minds! We are the creators of consoul.log - the place where you can unload your mind clutter and place it on display for sake of your private reflections. Even if you are not a technologist and it just happens that you have stumbled upon this page in your random search for reconciliation on the net, you are more than welcome. Division of humans into castes is not our mission!
-
-But what is ... ?
-
-Read on, our valuable visitor, and you will find the truth in this document that hopefully will help you to use our journal effectively! Withous further ado, let's see us getting started.
-
 ## Mission
 Give computer power users place to unwind and clear the clutter of their minds by providing simple stylised online journaling solution. By providing fun, easily accessible and safe environment for keeping your thoughts online we hope we can help you in short time to get familiar with practice and philosophy of journaling. 
 
@@ -22,11 +12,17 @@ Give computer power users place to unwind and clear the clutter of their minds b
  [Consoul.log](https://consoul-log.netlify.app/)
  
  ### Without using the deployed website
- 1. Clone or download the repos to the same folder from theduckfliesagain/all-about-the-journal and the duckfliesagain/journal-server.
- 2. Run npm install in both directories (this installs dependencies).
- 3. cd into all-about-the-journal folder and start the server using npm run dev (starts server using watchify bundler).
- 4. cd .. to go back and cd into journal-server folder. Here we need to start our server running npm start command.
- 5. Cool! Now head to http://localhost:8000/! Happy journaling.
+ 
+ Clone this repo to run the project locally! To use the local server instead of the heroku deploy change the host URL in `/client/script/fetchers.js` from `https://all-about-the-journal.herokuapp.com/` to `http://localhost:3000` 
+ * Client port: `8080`
+ * Server port: `3000`
+ 
+ #### Using docker
+ * Navigate to the root and run `docker-compose up` to launch the client and server containers
+ 
+ #### Without docker
+* Navigate to client and server folders and `npm install` to install dependencies
+* In server folder `npm run dev` to launch client and server
 
 ## Technologies
 
