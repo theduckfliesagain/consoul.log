@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = ../all-about-the-journal.git
+[submodule "server"]
+	path = server
+	url = ../journal-server.git
