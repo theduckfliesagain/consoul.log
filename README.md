@@ -1,7 +1,6 @@
 # Consoul.log
 ## A place for tech nerds to reveal their innermost feelings ...
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dafd330d-8703-4f6d-a426-d9a0682089eb/deploy-status)](https://app.netlify.com/sites/peaceful-hoover-3dc7e0/deploys)
 
 ## Mission
 Give computer power users place to unwind and clear the clutter of their minds by providing simple stylised online journaling solution. By providing fun, easily accessible and safe environment for keeping your thoughts online we hope we can help you in short time to get familiar with practice and philosophy of journaling. 
